@@ -8,7 +8,7 @@ The use of `PTRACE_SYSCALL` and `PTRACE_SYSEMU` are forbidden
 Team:   Solo  
 Time:   2 weeks
 
-Compilation via Makefile:
-`make`
-`./strace [-p | -s] test`
+Compilation via Makefile:  
+  `make`  
+  ` ./strace [-s] [-p <pid>|<command>]`  
 
